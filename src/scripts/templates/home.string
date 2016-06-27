@@ -1,0 +1,87 @@
+<div class="m-home">
+	<header>
+		<i class="yo-ico">&#xe63d;</i>
+		<span>首页</span>
+	</header>
+	<section spa-widget="scroll">
+		<div>
+			<div class="banner">
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<img src="/helpyou1/images/img1.jpg"/>
+					</div>
+					<div class="swiper-slide">
+						<img src="/helpyou1/images/img1.jpg"/>
+					</div>
+				</div>
+				<!-- 如果需要分页器 -->
+				<div class="swiper-pagination"></div>
+			</div>
+		</div>
+		<nav>
+			<div class="navlist">
+				<i class="yo-ico">&#xe6e3;</i>
+				<p>约牛人</p>
+			</div>
+			<div class="navlist">
+				<i class="yo-ico">&#xe603;</i>
+				<p>牛人收藏</p>
+			</div>
+			<div class="navlist">
+				<i class="yo-ico">&#xe612;</i>
+				<p>招募牛人</p>
+			</div>
+		</nav>
+		<div class="news">
+			<i><img src="/helpyou1/images/sy_new.png"/></i>
+			<span>
+				<b></b><em>暂无公告</em>
+			</span>
+		</div>
+		<div class="main">
+			<div class="mainhead">
+				<h3>社区牛人</h3>
+				<a action-type="more">更多&gt;</a>
+			</div>
+			<div class="mainnav">
+				<div class="mainnavtop">
+					<div class="navlist">
+						<h3>买菜</h3>
+						<p>帮你买菜</p>
+						<i ><img src="/helpyou1/images/sy_maicai.png"/></i>
+					</div>
+					<div class="navlist">
+						<h3>做饭</h3>
+						<p>为你做饭</p>
+						<i ><img src="/helpyou1/images/sy_saodi.png"/></i>
+					</div>
+					<div class="navlist">
+						<h3>缝纫</h3>
+						<p>妙手巧心</p>
+						<i ><img src="/helpyou1/images/sy_fengren.png"/></i>
+					</div>
+				</div>
+				<div class="mainnavbot">
+					<div class="navlist">
+						<h3>修理</h3>
+						<p>让我来修</p>
+						<i ><img src="/helpyou1/images/sy_xiuli.png"/></i>
+					</div>
+					<div class="navlist">
+						<h3>打扫</h3>
+						<p>劳动光荣</p>
+						<i ><img src="/helpyou1/images/sy_dasao.png"/></i>
+					</div>
+					<div class="navlist">
+						<h3>家教</h3>
+						<p>功课辅导</p>
+						<i ><img src="/helpyou1/images/sy_jiajiao.png"/></i>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		</div>
+	</section>
+</div>

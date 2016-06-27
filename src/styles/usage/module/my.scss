@@ -1,0 +1,155 @@
+.my {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    @include flexbox();
+    @include flex-direction(column);
+    header {
+        font-size: 20px;
+        height: 0.44rem;
+        background: orange;
+        line-height: 0.44rem;
+        color: #fff;
+        @include flexbox();
+        @include flex-direction();
+        span {
+            padding-left: 0.4rem;
+            @include box-sizing(border-box);
+            text-align: center;
+            @include flex(1);
+        }
+        p {
+            height: 100%;
+            width: 0.35rem;
+        }
+    }
+    section {
+        @include flex(1);
+        width: 100%;
+        @include flexbox();
+        @include flex-direction(column);
+        .log {
+            width: 100%;
+            height: 0.9rem;
+            background: #fff;
+            @include border(1px 0 1px 0, #999);
+            @include flexbox();
+            @include flex-direction();
+            p {
+                height: 100%;
+                width: 0.8rem;
+                padding: 0.1rem 0 0 0.2rem;
+                @include box-sizing(border-box);
+                img {
+                    width: 80%;
+                    height: 65%;
+                }
+            }
+            span {
+                @include flex(1);
+                height: 100%;
+                @include flexbox();
+                @include flex-direction(column);
+                em {
+                    display: block;
+                    width: 2.0rem;
+                    height: 0.3rem;
+                    @include border(1px 1px 1px 1px, orange);
+                    text-align: center;
+                    line-height: 0.3rem;
+                    font-size: 20px;
+                    font-weight: bold;
+                    margin: 0.15rem 0 0 0.1rem;
+                    color: orange;
+                }
+                b {
+                    @include flex(1);
+                    width: 100%;
+                    text-align: center;
+                    font-weight: normal;
+                    font-size: 12px;
+                    color: #666;
+                    padding: 0.1rem 0 0;
+                    @include box-sizing(border-box);
+                }
+            }
+        }
+        nav{
+            @include flex(1);
+            width: 100%;
+//          overflow: hidden;
+            @include flexbox();
+            @include flex-direction(column);
+            @include border(1px 0 1px 0, #d9d9d9);
+            .nav1{
+                background: #fff;
+                @include flex(1);
+                width: 100%;
+                margin-top: .1rem;
+                @include border(1px 0 1px 0, #d9d9d9);
+                
+                li{
+                   height: .55rem;
+                   width: 100%; 
+                   line-height: .55rem;
+                   padding-left: .2rem;
+                   @include box-sizing(border-box);
+                   @include flexbox();
+                   @include flex-direction();
+                   @include border(1px 0 1px 0, #d9d9d9);
+                   i{
+                       height: 100%;
+                       width: .5rem;
+                       font-size: 25px;
+                       color: orange;
+                       text-align: center;
+                   }
+                   em{
+                       @include flex(1);
+                       height: 100%;
+                       font-size: 20px;
+                       color: #999;
+                   }
+                   b{
+                       width: .3rem;
+                       height: 100%;
+                       font-size: 25px;
+                       color: #999;
+                   }
+                }
+            }
+            .nav2{
+                background: #fff;
+                @include flex(1);
+                width: 100%;
+                margin-top: .1rem;
+                
+                li{
+                   height: .55rem;
+                   width: 100%; 
+                   line-height: .55rem;
+                   padding-left: .2rem;
+                   @include box-sizing(border-box);
+                   @include flexbox();
+                   @include flex-direction();
+                   @include border(1px 0 1px 0, #d9d9d9);
+                   em{
+                       @include flex(1);
+                       height: 100%;
+                       font-size: 20px;
+                       color: #999;
+                   }
+                   b{
+                       width: .3rem;
+                       height: 100%;
+                       font-size: 25px;
+                       color: #999;
+                   }
+//                 &:nth-of-type(1){
+//                     margin: .1rem 0 .1rem 0;
+//                 }
+                }
+            }
+        }
+    }
+}

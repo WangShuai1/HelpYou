@@ -1,0 +1,263 @@
+.search {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    @include flexbox();
+    @include flex-direction(column);
+    header {
+        text-align: center;
+        font-size: 20px;
+        height: 0.44rem;
+        background: orange;
+        line-height: 0.44rem;
+        color: #fff;
+    }
+    section {
+        @include flex(1);
+        width: 100%;
+        .news {
+            width: 100%;
+            height: 0.9rem;
+            background: #fff;
+            margin-top: 0.1rem;
+            @include border(1px 0 1px 0, #999);
+            ul {
+                width: 100%;
+                height: 100%;
+                @include flexbox();
+                @include flex-direction();
+                li {
+                    height: 100%;
+                    &:nth-of-type(1) {
+                        width: 0.7rem;
+                        height: 100%;
+                        text-align: center;
+                        padding-top: 0.2rem;
+                        @include box-sizing(border-box);
+                        img {
+                            width: 60%;
+                            height: 70%;
+                        }
+                    }
+                    &:nth-of-type(2) {
+                        @include flex(1);
+                        height: 100%;
+                        i {
+                            display: block;
+                            height: 0.35rem;
+                            line-height: 0.6rem;
+                            font-size: 20px;
+                            font-family: "微软雅黑";
+                            color: #000;
+                            letter-spacing: 1px;
+                        }
+                        b {
+                            font-weight: normal;
+                            display: block;
+                            height: 0.35rem;
+                            line-height: 0.35rem;
+                            font-family: "微软雅黑";
+                            font-size: 16px;
+                            letter-spacing: 1px;
+                        }
+                    }
+                    &:nth-of-type(3) {
+                        width: 0.35rem;
+                        height: 100%;
+                        font-size: 30px;
+                        color: #d9d9d9;
+                        padding-top: 0.2rem;
+                        @include box-sizing(border-box);
+                    }
+                }
+            }
+        }
+        .actives {
+            width: 100%;
+            height: 0.9rem;
+            background: #fff;
+            margin-top: 0.1rem;
+            @include border(1px 0 1px 0, #999);
+            ul {
+                width: 100%;
+                height: 100%;
+                @include flexbox();
+                @include flex-direction();
+                li {
+                    height: 100%;
+                    &:nth-of-type(1) {
+                        width: 0.7rem;
+                        height: 100%;
+                        text-align: center;
+                        padding-top: 0.2rem;
+                        @include box-sizing(border-box);
+                        img {
+                            width: 60%;
+                            height: 70%;
+                        }
+                    }
+                    &:nth-of-type(2) {
+                        @include flex(1);
+                        height: 100%;
+                        i {
+                            display: block;
+                            height: 0.35rem;
+                            line-height: 0.6rem;
+                            font-size: 20px;
+                            font-family: "微软雅黑";
+                            color: #000;
+                            letter-spacing: 1px;
+                        }
+                        b {
+                            font-weight: normal;
+                            display: block;
+                            height: 0.35rem;
+                            line-height: 0.35rem;
+                            font-family: "微软雅黑";
+                            font-size: 16px;
+                            letter-spacing: 1px;
+                        }
+                    }
+                    &:nth-of-type(3) {
+                        width: 0.35rem;
+                        height: 100%;
+                        font-size: 30px;
+                        color: #d9d9d9;
+                        padding-top: 0.2rem;
+                        @include box-sizing(border-box);
+                    }
+                }
+            }
+        }
+        .contents {
+            width: 100%;
+            height: 1.8rem;
+            background: #fff;
+            margin-top: 0.1rem;
+            @include border(1px 0 1px 0, #999);
+            @include flexbox();
+            @include flex-direction();
+            .conL{
+                height: 100%;
+                @include flex(1);
+                @include flexbox();
+                @include flex-direction(column);
+                @include border(0 1px 0 0, #999);
+                .con1{
+                    @include flex(1);
+                    width: 100%;
+                    padding-left: .1rem;
+                    @include box-sizing(border-box);
+                    @include flexbox();
+                    @include flex-direction();
+                    @include border(0 0 1px 0, #999);
+                    span{
+                        height: 100%;
+                        @include flex(1); 
+                        padding: .2rem 0 0 0;
+                        @include box-sizing(border-box);
+                        em{
+                            display: block;
+                            font-size: 20px;
+                            text-align: center;
+                        }
+                        b{
+                            font-weight: normal;
+                            text-align: center;
+                            font-size: 12px;
+                        }
+                    }
+                    i{
+                        padding: .2rem 0 0 .1rem;
+                        @include box-sizing(border-box);
+                        img{
+                            width: 80%;
+                            height: 80%;
+                        }
+                    }
+                    
+                }
+                .con3{
+                    @include flex(1);
+                    width: 100%;
+                    padding-left: .1rem;
+                    @include box-sizing(border-box);
+                    @include flexbox();
+                    @include flex-direction();
+                    
+                    span{
+                        height: 100%;
+                        @include flex(1); 
+                        padding: .2rem 0 0 0;
+                        @include box-sizing(border-box);
+                        em{
+                            display: block;
+                            font-size: 20px;
+                            text-align: center;
+                        }
+                        b{
+                            font-weight: normal;
+                            text-align: center;
+                            font-size: 12px;
+                        }
+                    }
+                    i{
+                        padding: .2rem 0 0 .1rem;
+                        @include box-sizing(border-box);
+                        img{
+                            width: 80%;
+                            height: 80%;
+                        }
+                    }
+                    
+                    
+                }
+            }
+            .conR{
+                height: 100%;
+                @include flex(1);
+                @include flexbox();
+                @include flex-direction(column);
+                .con2{
+                    @include flex(1);
+                    width: 100%;
+                    padding-left: .1rem;
+                    @include box-sizing(border-box);
+                    @include flexbox();
+                    @include flex-direction();
+                    @include border(0 0 1px 0, #999);
+                    span{
+                        height: 100%;
+                        @include flex(1); 
+                        padding: .2rem 0 0 0;
+                        @include box-sizing(border-box);
+                        em{
+                            display: block;
+                            font-size: 20px;
+                            text-align: center;
+                        }
+                        b{
+                            font-weight: normal;
+                            text-align: center;
+                            font-size: 12px;
+                        }
+                    }
+                    i{
+                        padding: .2rem 0 0 .1rem;
+                        @include box-sizing(border-box);
+                        img{
+                            width: 80%;
+                            height: 80%;
+                        }
+                    }
+                    
+                }
+                .con4{
+                    @include flex(1);
+                    width: 100%;
+                }
+            }
+           
+        }
+    }
+}

@@ -1,0 +1,66 @@
+<div class="my">
+	<header>
+		<span>我的</span>
+		<p class="yo-ico">&#xe624;</p>
+	</header>
+	<section>
+		<div class="log">
+			<p><img src="/helpyou1/images/wd_on_default.png" /></p>
+			<span>
+				<em>登录</em>
+				<b>您尚未登录，请点击登录</b>
+			</span>
+		</div>
+
+		<nav spa-widget="scroll">
+			<div>
+				<ul class="nav1">
+					<li>
+						<i class="yo-ico">&#xe63d;</i>
+						<em>我的社区</em>
+						<b class="yo-ico">&#xe670;</b>
+					</li>
+					<li>
+						<i class="yo-ico">&#xe619;</i>
+						<em>我的订单</em>
+						<b class="yo-ico">&#xe670;</b>
+					</li>
+					<li>
+						<i class="yo-ico">&#xe620;</i>
+						<em>我的牛币</em>
+						<b class="yo-ico">&#xe670;</b>
+					</li>
+					<li>
+						<i class="yo-ico">&#xe622;</i>
+						<em>我的关注</em>
+						<b class="yo-ico">&#xe670;</b>
+					</li>
+					<li>
+						<i class="yo-ico">&#xe60b;</i>
+						<em>我的发布</em>
+						<b class="yo-ico">&#xe670;</b>
+					</li>
+				</ul>
+				<ul class="nav2">
+					<li>
+						<em>申请牛人</em>
+						<b class="yo-ico">&#xe670;</b>
+					</li>
+					<li>
+						<em>应用设置</em>
+						<b class="yo-ico">&#xe670;</b>
+					</li>
+					<li>
+						<em>意见反馈</em>
+						<b class="yo-ico">&#xe670;</b>
+					</li>
+					<li>
+						<em>联系客服&nbsp;400-600-1964</em>
+						<b class="yo-ico">&#xe670;</b>
+					</li>
+					
+				</ul>
+			</div>
+		</nav>
+	</section>
+</div>

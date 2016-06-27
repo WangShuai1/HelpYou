@@ -1,0 +1,32 @@
+<div class="more">
+	<header>
+		<p class="yo-ico" action-type="back">&#xe705;</p>
+		<span>牛人类别</span>
+	</header>
+	<nav spa-widget="scroll">
+			<div>
+				<ul>
+					<li>
+						<em>我的社区</em>
+						<b class="yo-ico">&#xe670;</b>
+					</li>
+					<li>
+						<em>我的订单</em>
+						<b class="yo-ico">&#xe670;</b>
+					</li>
+					<li>
+						<em>我的牛币</em>
+						<b class="yo-ico">&#xe670;</b>
+					</li>
+					<li>
+						<em>我的关注</em>
+						<b class="yo-ico">&#xe670;</b>
+					</li>
+					<li>
+						<em>我的发布</em>
+						<b class="yo-ico">&#xe670;</b>
+					</li>
+				</ul>
+			</div>	
+	</nav>			
+</div>

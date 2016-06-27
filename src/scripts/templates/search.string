@@ -1,0 +1,60 @@
+<div class="search">
+	<header>
+		<span>发现</span>
+	</header>
+	<section>
+		<div class="news">
+			<ul>
+				<li><img src="/helpyou1/images/fx_xqgg.png"/></li>
+				<li>
+					<i>小区公告</i>
+					<b>大事小事早知道</b>
+				</li>
+				<li class="yo-ico">&#xe670;</li>
+			</ul>
+		</div>
+		<div class="actives">
+			<ul>
+				<li><img src="/helpyou1/images/fx_hdbm.png"/></li>
+				<li>
+					<i>活动报名</i>
+					<b>丰富活动等你来</b>
+				</li>
+				<li class="yo-ico">&#xe670;</li>
+			</ul>
+		</div>
+		<div class="contents">
+			<div class="conL">
+				<div class="con1">
+					<span>
+						<em>充话费</em>
+						<b>全网最大优惠</b>
+					</span>
+					<i><img src="/helpyou1/images/fx_chf.png"/></i>
+				</div>
+				<div class="con3">
+					<span>
+						<em>买车险</em>
+						<b>最便宜的车险</b>
+					</span>
+					<i><img src="/helpyou1/images/fx_mcx.png"/></i>
+				</div>
+			</div>
+			<div class="conR">
+				<div class="con2">
+					<span>
+						<em>帮你拍</em>
+						<b>低价购拍即送</b>
+					</span>
+					<i><img src="/helpyou1/images/fx_bnp.png"/></i>
+				</div>
+				<div class="con4"></div>
+			</div>
+		</div>
+	</section>
+</div>
+
+
+			
+			
+			
